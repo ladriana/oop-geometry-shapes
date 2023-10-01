@@ -14,12 +14,13 @@ public class Triangle {
             this.l1 = l1;
         }
     }
-        public double calculatePerimeter () {
-            return l1 + l2 + l3;
-        }
 
-        public double calculateArea () {
-            double sm = calculatePerimeter() / 2;
-            return Math.sqrt(sm * (sm - l1) * (sm - l2) * (sm - l3));
-        }
+    public double calculatePerimeter() {
+        return l1 + l2 + l3;
     }
+
+    public double calculateArea() {
+        double sm = calculatePerimeter() / 2;
+        return Math.sqrt(sm * (sm - l1) * (sm - l2) * (sm - l3));
+    }
+}

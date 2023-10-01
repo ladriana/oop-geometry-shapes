@@ -19,9 +19,18 @@ public class ShapesValidation {
 
     public static boolean validationRectangle(double length, double width) {
         if (length > 0 && width > 0) {
-            return  true;
+            return true;
         } else {
-            return  false;
+            return false;
         }
     }
+
+    public static boolean validationSquer(double length) {
+        if (length > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }
